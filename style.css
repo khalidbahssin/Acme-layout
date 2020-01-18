@@ -1,0 +1,197 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F4F4F4;
+    font-size: 16px;
+    font-family: Arial,sans-serif;
+    line-height: 1.5;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height: inherit;
+}
+header{
+    background-color: #35424A;
+    color: #fff;
+    height:90px;
+    border-bottom: #E8491D 2px solid;
+}
+.container h1 span{
+    color: #E8491D;
+    font-weight: bold;
+}
+#container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item2{
+    flex-basis: 25%;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header a:hover,.current{
+    color: #E8491D;
+    font-weight: bold;
+}
+
+#slide{
+    background: url("img/showcase.jpg") no-repeat center center/cover;
+    height: 400px;
+    color: #ffffff;
+}
+#slide .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#slide h1{
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+#slide p{
+    font-size: 18px;
+}
+#subscribe-bar{
+    background-color: #35424A;
+    color: white;
+    height: 90px;
+}
+#subscribe-bar .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+#subscribe-bar form{
+    flex-basis: 40%;
+}
+#subscribe-bar input{
+    width: 70%;
+    padding:10px;
+    margin-right: 7px;
+}
+
+#content{
+    margin-top: 30px;
+}
+#content img{
+    height:100px;
+
+}
+#content .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+#content .content-article{
+    margin-right: 30px;
+    line-height: 1.7;
+}
+
+/*Page About*/
+
+#about_us{
+    margin-top: 30px;
+}
+#about_us .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#about_us .container article{
+    flex: 3;
+    margin-right: 40px;
+}
+#about_us .container aside{
+    flex: 1;
+    margin-top: 0;
+}
+
+/*Page Services*/
+
+#services{
+    margin-top: 30px;
+    overflow: hidden;
+}
+#services .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+#services .container article{
+    flex: 2;
+    margin-right: 40px;
+}
+#services .container aside{
+    flex: 1;
+}
+.service{
+    margin-top: 15px;
+    background: #E6E6E6;
+    padding: 20px;
+    border: 1px solid #ccc;
+    line-height: 1.7;
+}
+.service h5{
+    margin-top: 5px;
+}
+#services form input,textarea{
+    width: 100%;
+    padding:10px;
+}
+
+#services aside{
+    margin-bottom: 200px;
+}
+footer{
+    background: #E8491D;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+/*Global*/
+.btn{
+    background: #E8491D;
+    color: white;
+    padding: 10px;
+    height: 40px;
+    border: none;
+}
+.btn:hover{
+    opacity: 0.6;
+}
+
+.space{
+    margin-top: 182px;
+}
+.dark{
+    background: #35424A;
+    color: #fff;
+    padding: 10px;
+    margin-top:15px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
